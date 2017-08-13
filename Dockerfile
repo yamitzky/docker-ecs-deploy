@@ -1,6 +1,6 @@
 FROM docker
 
-RUN apk add --update \
+RUN apk add --no-cache \
       curl \
       jq \
       py-pip \
