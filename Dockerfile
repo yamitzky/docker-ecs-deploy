@@ -4,5 +4,8 @@ RUN apk add --no-cache \
       curl \
       jq \
       py-pip \
-    && pip install awscli \
+      awscli \
+    && pip install \
+      awscli \
+      docker-compose \
     && rm -rf /var/cache/apk/*
